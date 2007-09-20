@@ -1,6 +1,6 @@
 %define name	hibernate
 %define version 1.93
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -12,6 +12,7 @@ URL:		http://softwaresuspend.berlios.de/
 Source:		http://www.suspend2.net/downloads/all/%{name}-script-%{version}.tar.bz2
 Patch0:		hibernate-extra_pages_allowance.patch
 Patch1:		hibernate-do-not-clear-last_result.patch
+Patch2:		hibernate-add-tuxonice-support.patch
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
@@ -29,6 +30,7 @@ options and modify your /etc/hibernate/hibernate.conf to set them.
 
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %install
 rm -rf %{buildroot}
