@@ -1,5 +1,5 @@
 %define name	hibernate
-%define version 1.96
+%define version 1.97
 %define release %mkrel 1
 
 Name:		%{name}
@@ -21,7 +21,7 @@ Suspend 2 patches available at http://softwaresuspend.berlios.de/,
 which are also included in the kernel-multimedia package.
 
 After installing you will want to run 'hibernate -h' to see available
-options and modify your /etc/hibernate/hibernate.conf to set them. 
+options and modify your /etc/hibernate/hibernate.conf to set them.
 
 %prep
 %setup -q -n %{name}-script-%{version}
