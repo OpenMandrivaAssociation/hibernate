@@ -12,7 +12,6 @@ URL:		http://softwaresuspend.berlios.de/
 Source:		http://www.suspend2.net/downloads/all/%{name}-script-%{version}.tar.bz2
 Patch0:		hibernate-extra_pages_allowance.patch
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 hibernate is a shell script that handles the process of getting ready
