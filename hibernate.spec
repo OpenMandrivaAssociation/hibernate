@@ -1,6 +1,6 @@
 %define name	hibernate
 %define version 1.99
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
