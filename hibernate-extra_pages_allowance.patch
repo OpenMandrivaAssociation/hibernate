@@ -1,0 +1,15 @@
+diff -Nurp hibernate-script-2.0.orig/tuxonice.conf hibernate-script-2.0/tuxonice.conf
+--- hibernate-script-2.0.orig/tuxonice.conf	2009-04-01 05:09:28.000000000 +0300
++++ hibernate-script-2.0/tuxonice.conf	2009-04-05 01:53:06.935118542 +0300
+@@ -17,6 +17,11 @@ Compressor lzf
+ Encryptor none
+ # ImageSizeLimit 200
+ 
++#If you use the proprietary fglrx driver from ATI for your radeon card
++#suspend may fail. Uncommenting this entry may help
++#You may want to find the lowest possible value that still works
++#ProcSetting extra_pages_allowance 7500
++
+ ## useful for initrd usage:
+ # SuspendDevice swap:/dev/hda2
+ 
