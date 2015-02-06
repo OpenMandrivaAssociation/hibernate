@@ -1,6 +1,6 @@
 Name:		hibernate
 Version:	2.0
-Release:	9
+Release:	10
 License:	GPL
 Summary:	Software suspend 2 hibernate script
 Group:		System/Base
