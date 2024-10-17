@@ -4,7 +4,7 @@ Release:	10
 License:	GPL
 Summary:	Software suspend 2 hibernate script
 Group:		System/Base
-URL:		http://www.tuxonice.net/
+URL:		https://www.tuxonice.net/
 Source:		http://www.tuxonice.net/downloads/all/%{name}-script-%{version}.tar.gz
 Patch0:		hibernate-extra_pages_allowance.patch
 BuildArch:	noarch
